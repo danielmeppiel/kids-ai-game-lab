@@ -52,7 +52,7 @@ Young children struggle with typing. **Voice dictation transforms the experience
 
 ---
 
-## 📐 The PROSE Framework: Why This Lab Works
+## 📐 The PROSE Specification: Why This Lab Works
 
 This lab is built on **PROSE** — an emerging standard for AI-native development that makes AI systems reliable and maintainable:
 
