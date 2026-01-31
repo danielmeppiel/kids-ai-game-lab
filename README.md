@@ -300,6 +300,8 @@ This project includes a complete example you can study and play:
 | Design | 🎨 Artist | [style-guide.md](assets/le-voleur-malin/style-guide.md) |
 | Building | 💻 Developer | [src/le-voleur-malin/](src/le-voleur-malin/) |
 
+📖 **[See the full conversation transcript](docs/examples/conversation-example.md)** — watch how a family drove the entire lab session with natural language!
+
 **Play it now:**
 ```bash
 npm install

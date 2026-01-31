@@ -296,6 +296,8 @@ Ce projet inclut un exemple complet que vous pouvez étudier et jouer :
 | Design | 🎨 Artiste | [style-guide.md](assets/le-voleur-malin/style-guide.md) |
 | Construction | 💻 Développeur | [src/le-voleur-malin/](src/le-voleur-malin/) |
 
+📖 **[Voir la transcription complète de la conversation](../examples/exemple-conversation.md)** — voyez comment une famille a piloté toute la session de lab avec un langage naturel !
+
 **Jouez maintenant :**
 ```bash
 npm install
