@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Bouton directionnel HAUT -->
+  
+  <!-- Fond du bouton -->
+  <circle cx="32" cy="32" r="28" fill="#4B5563"/>
+  <circle cx="32" cy="30" r="28" fill="#6B7280"/>
+  <circle cx="32" cy="30" r="24" fill="#9CA3AF"/>
+  
+  <!-- Flèche vers le haut -->
+  <polygon points="32,12 50,36 40,36 40,48 24,48 24,36 14,36" fill="white"/>
+  <polygon points="32,16 46,34 38,34 38,44 26,44 26,34 18,34" fill="#E5E7EB"/>
+  
+  <!-- Reflet -->
+  <ellipse cx="26" cy="22" rx="8" ry="4" fill="white" opacity="0.3"/>
+</svg>

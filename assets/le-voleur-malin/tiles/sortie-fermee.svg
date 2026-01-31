@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Sortie fermée (cadenas) -->
+  
+  <!-- Fond porte -->
+  <rect x="8" y="4" width="48" height="56" rx="4" fill="#6B7280"/>
+  <rect x="10" y="6" width="44" height="52" rx="3" fill="#9CA3AF"/>
+  
+  <!-- Barres horizontales -->
+  <rect x="10" y="16" width="44" height="4" fill="#4B5563"/>
+  <rect x="10" y="32" width="44" height="4" fill="#4B5563"/>
+  <rect x="10" y="48" width="44" height="4" fill="#4B5563"/>
+  
+  <!-- Cadenas central -->
+  <rect x="22" y="24" width="20" height="18" rx="3" fill="#DC2626"/>
+  <rect x="24" y="26" width="16" height="14" rx="2" fill="#EF4444"/>
+  
+  <!-- Anse du cadenas -->
+  <path d="M26 24 L26 18 Q32 10 38 18 L38 24" stroke="#6B7280" stroke-width="4" fill="none"/>
+  <path d="M27 24 L27 18 Q32 12 37 18 L37 24" stroke="#9CA3AF" stroke-width="2" fill="none"/>
+  
+  <!-- Trou de serrure -->
+  <circle cx="32" cy="32" r="3" fill="#1F2937"/>
+  <rect x="30" y="32" width="4" height="6" fill="#1F2937"/>
+  
+  <!-- X rouge -->
+  <line x1="20" y1="46" x2="44" y2="54" stroke="#DC2626" stroke-width="4" stroke-linecap="round"/>
+  <line x1="44" y1="46" x2="20" y2="54" stroke="#DC2626" stroke-width="4" stroke-linecap="round"/>
+</svg>

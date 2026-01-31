@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Bonus Invisibilité - Fantôme/Spectre -->
+  
+  <!-- Cercle de fond magique -->
+  <circle cx="32" cy="32" r="28" fill="#9b59b6" opacity="0.3"/>
+  <circle cx="32" cy="32" r="24" fill="#8e44ad" opacity="0.4"/>
+  
+  <!-- Corps du fantôme -->
+  <path d="M20 48 Q20 20 32 16 Q44 20 44 48 L40 44 L36 48 L32 44 L28 48 L24 44 Z" 
+        fill="white" opacity="0.7" stroke="#bdc3c7" stroke-width="1"/>
+  
+  <!-- Yeux du fantôme -->
+  <ellipse cx="26" cy="32" rx="4" ry="5" fill="#3498db" opacity="0.8"/>
+  <ellipse cx="38" cy="32" rx="4" ry="5" fill="#3498db" opacity="0.8"/>
+  
+  <!-- Pupilles -->
+  <circle cx="27" cy="33" r="2" fill="#2c3e50"/>
+  <circle cx="39" cy="33" r="2" fill="#2c3e50"/>
+  
+  <!-- Étoiles magiques -->
+  <polygon points="12,20 14,24 18,24 15,27 16,31 12,28 8,31 9,27 6,24 10,24" 
+           fill="#f1c40f" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.3;0.8" dur="1s" repeatCount="indefinite"/>
+  </polygon>
+  
+  <polygon points="52,24 53,27 56,27 54,29 55,32 52,30 49,32 50,29 48,27 51,27" 
+           fill="#f1c40f" opacity="0.6">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="0.8s" repeatCount="indefinite"/>
+  </polygon>
+  
+  <polygon points="48,12 49,14 51,14 50,16 50,18 48,16 46,18 46,16 45,14 47,14" 
+           fill="#e74c3c" opacity="0.7">
+    <animate attributeName="opacity" values="0.7;0.2;0.7" dur="1.2s" repeatCount="indefinite"/>
+  </polygon>
+  
+  <!-- Aura magique -->
+  <circle cx="32" cy="32" r="26" fill="none" stroke="#9b59b6" stroke-width="2" opacity="0.5">
+    <animate attributeName="r" values="26;30;26" dur="1.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;0.2;0.5" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+</svg>

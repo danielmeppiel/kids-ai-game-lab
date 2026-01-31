@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Poubelle verte cartoon -->
+  
+  <!-- Ombre -->
+  <ellipse cx="34" cy="60" rx="20" ry="4" fill="#1F2937" opacity="0.2"/>
+  
+  <!-- Corps -->
+  <path d="M14 20 L18 56 L46 56 L50 20 Z" fill="#059669"/>
+  <path d="M16 20 L19 54 L26 54 L22 20 Z" fill="#10B981" opacity="0.5"/>
+  <rect x="14" y="30" width="36" height="3" fill="#047857"/>
+  <rect x="15" y="42" width="34" height="3" fill="#047857"/>
+  
+  <!-- Couvercle -->
+  <ellipse cx="32" cy="18" rx="20" ry="6" fill="#10B981"/>
+  <ellipse cx="32" cy="16" rx="18" ry="5" fill="#34D399"/>
+  <rect x="28" y="10" width="8" height="6" rx="2" fill="#6B7280"/>
+  <rect x="29" y="8" width="6" height="4" rx="2" fill="#9CA3AF"/>
+  
+  <!-- Yeux endormis -->
+  <path d="M22 32 Q26 30 30 32" stroke="#065F46" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M34 32 Q38 30 42 32" stroke="#065F46" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <text x="52" y="14" font-size="8" fill="#6B7280" font-style="italic">z</text>
+  <text x="56" y="10" font-size="6" fill="#9CA3AF" font-style="italic">z</text>
+  
+  <!-- Base -->
+  <ellipse cx="32" cy="56" rx="16" ry="4" fill="#047857"/>
+</svg>

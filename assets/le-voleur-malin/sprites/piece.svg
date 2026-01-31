@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Pièce d'or brillante -->
+  
+  <!-- Ombre -->
+  <ellipse cx="34" cy="58" rx="18" ry="4" fill="#1F2937" opacity="0.2"/>
+  
+  <!-- Pièce - effet 3D -->
+  <ellipse cx="32" cy="34" rx="24" ry="24" fill="#B45309"/>
+  <ellipse cx="32" cy="32" rx="24" ry="24" fill="#F59E0B"/>
+  <ellipse cx="32" cy="32" rx="20" ry="20" fill="#FBBF24"/>
+  
+  <!-- Reflet -->
+  <ellipse cx="24" cy="24" rx="8" ry="6" fill="#FDE68A" opacity="0.6"/>
+  
+  <!-- Bordure intérieure -->
+  <circle cx="32" cy="32" r="16" fill="none" stroke="#D97706" stroke-width="2"/>
+  
+  <!-- Symbole $ -->
+  <text x="32" y="40" font-size="24" fill="#92400E" text-anchor="middle" font-weight="bold">$</text>
+  
+  <!-- Brillance -->
+  <circle cx="44" cy="20" r="3" fill="white" opacity="0.8"/>
+  <circle cx="48" cy="24" r="1.5" fill="white" opacity="0.6"/>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Diamant brillant -->
+  
+  <!-- Ombre -->
+  <ellipse cx="32" cy="60" rx="16" ry="3" fill="#1F2937" opacity="0.2"/>
+  
+  <!-- Partie inférieure du diamant -->
+  <polygon points="32,58 8,24 56,24" fill="#0EA5E9"/>
+  <polygon points="32,58 8,24 24,24" fill="#0284C7"/>
+  <polygon points="32,58 40,24 56,24" fill="#38BDF8"/>
+  
+  <!-- Partie supérieure (table) -->
+  <polygon points="8,24 16,8 48,8 56,24" fill="#7DD3FC"/>
+  <polygon points="8,24 16,8 24,24" fill="#0EA5E9"/>
+  <polygon points="56,24 48,8 40,24" fill="#BAE6FD"/>
+  
+  <!-- Table du diamant -->
+  <polygon points="24,24 40,24 48,8 16,8" fill="#BAE6FD"/>
+  
+  <!-- Facettes -->
+  <line x1="24" y1="24" x2="32" y2="58" stroke="#0284C7" stroke-width="1"/>
+  <line x1="40" y1="24" x2="32" y2="58" stroke="#0284C7" stroke-width="1"/>
+  <line x1="32" y1="8" x2="24" y2="24" stroke="#0284C7" stroke-width="1"/>
+  <line x1="32" y1="8" x2="40" y2="24" stroke="#0284C7" stroke-width="1"/>
+  
+  <!-- Brillances -->
+  <polygon points="18,16 22,12 26,16 22,18" fill="white" opacity="0.8"/>
+  <circle cx="44" cy="14" r="2" fill="white" opacity="0.6"/>
+  <circle cx="14" cy="22" r="1.5" fill="white" opacity="0.5"/>
+  
+  <!-- Étoile de brillance -->
+  <path d="M50 10 L51 14 L55 14 L52 17 L53 21 L50 18 L47 21 L48 17 L45 14 L49 14 Z" fill="white" opacity="0.9"/>
+</svg>

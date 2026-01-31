@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Maison colorée cartoon -->
+  
+  <!-- Ombre -->
+  <ellipse cx="32" cy="60" rx="28" ry="4" fill="#1F2937" opacity="0.2"/>
+  
+  <!-- Mur principal -->
+  <rect x="8" y="28" width="48" height="32" fill="#FEF3C7"/>
+  <rect x="8" y="28" width="48" height="32" stroke="#F59E0B" stroke-width="2" fill="none"/>
+  
+  <!-- Toit -->
+  <polygon points="4,28 32,4 60,28" fill="#DC2626"/>
+  <polygon points="4,28 32,4 60,28" stroke="#B91C1C" stroke-width="2" fill="none"/>
+  
+  <!-- Cheminée -->
+  <rect x="44" y="8" width="8" height="16" fill="#92400E"/>
+  <rect x="42" y="6" width="12" height="4" fill="#78350F"/>
+  
+  <!-- Porte -->
+  <rect x="24" y="38" width="16" height="22" rx="2" fill="#92400E"/>
+  <rect x="26" y="40" width="12" height="18" rx="1" fill="#78350F"/>
+  <circle cx="36" cy="50" r="2" fill="#FCD34D"/>
+  
+  <!-- Fenêtre gauche -->
+  <rect x="12" y="34" width="10" height="10" fill="#7DD3FC"/>
+  <rect x="12" y="34" width="10" height="10" stroke="white" stroke-width="2" fill="none"/>
+  <line x1="17" y1="34" x2="17" y2="44" stroke="white" stroke-width="2"/>
+  <line x1="12" y1="39" x2="22" y2="39" stroke="white" stroke-width="2"/>
+  
+  <!-- Fenêtre droite -->
+  <rect x="42" y="34" width="10" height="10" fill="#7DD3FC"/>
+  <rect x="42" y="34" width="10" height="10" stroke="white" stroke-width="2" fill="none"/>
+  <line x1="47" y1="34" x2="47" y2="44" stroke="white" stroke-width="2"/>
+  <line x1="42" y1="39" x2="52" y2="39" stroke="white" stroke-width="2"/>
+  
+  <!-- Fenêtre toit -->
+  <circle cx="32" cy="18" r="6" fill="#7DD3FC"/>
+  <circle cx="32" cy="18" r="6" stroke="white" stroke-width="2" fill="none"/>
+  <line x1="32" y1="12" x2="32" y2="24" stroke="white" stroke-width="2"/>
+  <line x1="26" y1="18" x2="38" y2="18" stroke="white" stroke-width="2"/>
+</svg>

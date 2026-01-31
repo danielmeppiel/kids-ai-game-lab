@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Bonus vitesse (chaussure rapide) -->
+  
+  <!-- Lueur de fond -->
+  <ellipse cx="32" cy="32" rx="28" ry="28" fill="#FCD34D" opacity="0.3"/>
+  
+  <!-- Chaussure de course -->
+  <path d="M12 44 L16 28 Q20 20 32 20 L48 22 Q56 24 56 32 L56 44 Q56 50 48 50 L16 50 Q12 50 12 44 Z" fill="#3B82F6"/>
+  
+  <!-- Semelle -->
+  <path d="M12 46 L56 46 Q58 50 54 52 L14 52 Q10 50 12 46 Z" fill="#1F2937"/>
+  
+  <!-- Détails chaussure -->
+  <ellipse cx="24" cy="36" rx="6" ry="8" fill="#60A5FA"/>
+  <path d="M32 24 L44 26 L44 34 L32 32 Z" fill="#2563EB"/>
+  
+  <!-- Lacets -->
+  <line x1="28" y1="28" x2="36" y2="30" stroke="white" stroke-width="2"/>
+  <line x1="28" y1="34" x2="36" y2="36" stroke="white" stroke-width="2"/>
+  <line x1="28" y1="40" x2="36" y2="42" stroke="white" stroke-width="2"/>
+  
+  <!-- Lignes de vitesse -->
+  <line x1="4" y1="28" x2="10" y2="28" stroke="#FCD34D" stroke-width="3" stroke-linecap="round"/>
+  <line x1="2" y1="36" x2="8" y2="36" stroke="#FCD34D" stroke-width="3" stroke-linecap="round"/>
+  <line x1="4" y1="44" x2="10" y2="44" stroke="#FCD34D" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Étoiles -->
+  <polygon points="58,16 59,19 62,19 60,21 61,24 58,22 55,24 56,21 54,19 57,19" fill="#FCD34D"/>
+  <polygon points="50,10 51,12 53,12 51.5,13.5 52,16 50,14.5 48,16 48.5,13.5 47,12 49,12" fill="#FBBF24"/>
+</svg>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Le Voleur Malin 🦝</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦝</text></svg>">
+</head>
+<body>
+    <div id="game-container">
+        <!-- Écran Titre -->
+        <div id="screen-title" class="screen active">
+            <div class="title-content">
+                <h1>🦝 Le Voleur Malin</h1>
+                <p class="subtitle">Récupère tous les trésors et échappe à la police !</p>
+                <button id="btn-play" class="btn-main">
+                    <span>🎮</span> JOUER
+                </button>
+                <button id="btn-sound" class="btn-icon" title="Sons">🔊</button>
+            </div>
+            <div class="credits">
+                <p>🎯 Pour enfants de 6-8 ans</p>
+            </div>
+        </div>
+
+        <!-- Écran de Jeu -->
+        <div id="screen-game" class="screen">
+            <!-- HUD -->
+            <div id="hud">
+                <div class="hud-left">
+                    <div class="hud-lives" id="hud-lives">
+                        <img src="../../assets/le-voleur-malin/ui/coeur.svg" alt="vie" class="heart">
+                        <img src="../../assets/le-voleur-malin/ui/coeur.svg" alt="vie" class="heart">
+                        <img src="../../assets/le-voleur-malin/ui/coeur.svg" alt="vie" class="heart">
+                    </div>
+                    <div class="hud-score">
+                        <span id="score">0</span> pts
+                    </div>
+                </div>
+                <div class="hud-center">
+                    <div class="hud-level" id="hud-level">Niveau 1</div>
+                    <div class="hud-treasures">
+                        <span id="treasures-collected">0</span>/<span id="treasures-total">0</span> 💎
+                    </div>
+                </div>
+                <div class="hud-right">
+                    <button id="btn-pause" class="btn-icon">⏸️</button>
+                </div>
+            </div>
+
+            <!-- Zone de jeu -->
+            <div id="game-board"></div>
+
+            <!-- Contrôles tactiles -->
+            <div id="touch-controls">
+                <div class="dpad">
+                    <button class="dpad-btn up" data-direction="up">
+                        <img src="../../assets/le-voleur-malin/ui/bouton-haut.svg" alt="Haut">
+                    </button>
+                    <button class="dpad-btn left" data-direction="left">
+                        <img src="../../assets/le-voleur-malin/ui/bouton-gauche.svg" alt="Gauche">
+                    </button>
+                    <button class="dpad-btn right" data-direction="right">
+                        <img src="../../assets/le-voleur-malin/ui/bouton-droite.svg" alt="Droite">
+                    </button>
+                    <button class="dpad-btn down" data-direction="down">
+                        <img src="../../assets/le-voleur-malin/ui/bouton-bas.svg" alt="Bas">
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Écran Pause -->
+        <div id="screen-pause" class="screen overlay">
+            <div class="popup">
+                <h2>⏸️ Pause</h2>
+                <button id="btn-resume" class="btn-main">▶️ Continuer</button>
+                <button id="btn-restart" class="btn-secondary">🔄 Recommencer</button>
+                <button id="btn-quit" class="btn-secondary">🏠 Menu</button>
+            </div>
+        </div>
+
+        <!-- Écran Niveau Terminé -->
+        <div id="screen-level-complete" class="screen overlay">
+            <div class="popup">
+                <h2>🎉 Niveau Terminé !</h2>
+                <div id="level-stars" class="stars">
+                    <span class="star">⭐</span>
+                    <span class="star">⭐</span>
+                    <span class="star">⭐</span>
+                </div>
+                <p class="level-score">Score: <span id="level-score">0</span></p>
+                <button id="btn-next-level" class="btn-main">➡️ Niveau Suivant</button>
+            </div>
+        </div>
+
+        <!-- Écran Game Over -->
+        <div id="screen-gameover" class="screen overlay">
+            <div class="popup gameover">
+                <h2>💔 Game Over</h2>
+                <p>Tu t'es fait attraper !</p>
+                <p class="final-score">Score Final: <span id="final-score">0</span></p>
+                <p class="high-score">Meilleur Score: <span id="high-score">0</span></p>
+                <button id="btn-retry" class="btn-main">🔄 Réessayer</button>
+                <button id="btn-menu" class="btn-secondary">🏠 Menu</button>
+            </div>
+        </div>
+
+        <!-- Écran Victoire Finale -->
+        <div id="screen-victory" class="screen overlay">
+            <div class="popup victory">
+                <h2>🏆 VICTOIRE !</h2>
+                <p>Tu as terminé tous les niveaux !</p>
+                <div id="total-stars" class="stars"></div>
+                <p class="final-score">Score Total: <span id="victory-score">0</span></p>
+                <button id="btn-play-again" class="btn-main">🎮 Rejouer</button>
+            </div>
+        </div>
+
+        <!-- Message flottant -->
+        <div id="floating-message" class="floating-message hidden"></div>
+    </div>
+
+    <script type="module" src="scripts/main.js"></script>
+</body>
+</html>

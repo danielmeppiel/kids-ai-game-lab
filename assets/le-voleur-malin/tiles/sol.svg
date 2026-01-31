@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Tuile de sol - pavés de ville -->
+  
+  <!-- Fond -->
+  <rect x="0" y="0" width="64" height="64" fill="#9CA3AF"/>
+  
+  <!-- Pavés -->
+  <rect x="2" y="2" width="28" height="28" rx="2" fill="#D1D5DB"/>
+  <rect x="34" y="2" width="28" height="28" rx="2" fill="#E5E7EB"/>
+  <rect x="2" y="34" width="28" height="28" rx="2" fill="#E5E7EB"/>
+  <rect x="34" y="34" width="28" height="28" rx="2" fill="#D1D5DB"/>
+  
+  <!-- Détails des pavés -->
+  <rect x="4" y="4" width="24" height="24" rx="1" fill="#E5E7EB"/>
+  <rect x="36" y="4" width="24" height="24" rx="1" fill="#F3F4F6"/>
+  <rect x="4" y="36" width="24" height="24" rx="1" fill="#F3F4F6"/>
+  <rect x="36" y="36" width="24" height="24" rx="1" fill="#E5E7EB"/>
+</svg>
